@@ -80,14 +80,13 @@ function dkan_dataset_form_settings() {
 function dkan_dataset_node_view($node, $view_mode, $langcode) {
   if ($view_mode == 'full' && $node->type == 'dataset') {
 
+    $label = t('Data and Resources');
     $node->content['resources'] = array(
-      '#type' => 'item',
+      '#type' => 'markup',
       '#theme' => 'dkan_dataset_resource_view',
       '#node' => $node,
       '#enabled' => TRUE,
-      '#title' => t('Data and Resources'),
-      '#label_display' => 'above',
-      '#prefix' => '<div id="data-and-resources">',
+      '#prefix' => '<div id="data-and-resources"><h2>' . $label . '</h2>',
       '#suffix' => '</div>',
       '#view_mode' => $view_mode,
     );
