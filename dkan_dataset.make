@@ -137,8 +137,7 @@ projects[open_data_schema_map][subdir] = contrib
 projects[open_data_schema_map_dkan][type] = module
 projects[open_data_schema_map_dkan][download][type] = git
 projects[open_data_schema_map_dkan][download][url] = https://github.com/NuCivic/open_data_schema_map_dkan.git
-projects[open_data_schema_map_dkan][download][branch] = master
-projects[open_data_schema_map_dkan][download][revision] = 622b684c228f3c40840ad8bf176a1108f06b4320
+projects[open_data_schema_map_dkan][download][branch] = usda_nal_issue_add_1_1_schema
 projects[open_data_schema_map_dkan][subdir] = contrib
 
 projects[pathauto][version] = 1.2
