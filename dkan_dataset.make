@@ -150,7 +150,7 @@ projects[views][subdir] = contrib
 
 projects[recline][download][type] = git
 projects[recline][download][url] = https://github.com/NuCivic/recline.git
-projects[recline][download][branch] = 7.x-1.x
+projects[recline][download][branch] = nucivic_nucivic_internal_276_clustering_not_working
 projects[recline][subdir] = contrib
 
 projects[entity_rdf][download][type] = git
