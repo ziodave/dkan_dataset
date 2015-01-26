@@ -202,7 +202,7 @@ projects[pathauto][subdir] = contrib
 
 ; Libraries
 
-includes[recline_make] = https://raw.githubusercontent.com/NuCivic/recline/7.x-1.x/recline.make
+includes[recline_make] = https://raw.githubusercontent.com/NuCivic/recline/nucivic_nucivic_internal_276_clustering_not_working/recline.make
 
 libraries[chosen][type] = libraries
 libraries[chosen][download][type] = git
